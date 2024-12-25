@@ -2,8 +2,9 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-aliyundrive-webdav
 PKG_VERSION:=2.3.3
-PKG_RELEASE:=r1
-PKG_PO_VERSION:=$(PKG_VERSION)-$(PKG_RELEASE)
+#PKG_RELEASE:=r1
+#PKG_PO_VERSION:=$(PKG_VERSION)-$(PKG_RELEASE)
+PKG_PO_VERSION:=$(PKG_VERSION)
 
 PKG_LICENSE:=MIT
 PKG_MAINTAINER:=messense <messense@icloud.com>
